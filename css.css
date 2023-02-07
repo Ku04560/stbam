@@ -1,0 +1,30 @@
+html{
+	margin: 0;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+	background: #b7b661;
+	height: 95px;
+    color: #930a33;
+}
+.box{
+    color: #0e2020;
+    width: 65em;
+    overflow-wrap: normal;
+    display: block;
+    margin: 0 auto;
+}
+.item{
+    height: 90%;
+    width: 90%;
+}
+.item:nth-child(1){
+    display: block;
+    margin: 0 auto;
+    background-color: #ffccab9d;
+    height: max-content;
+    font-size: 25px;
+}
