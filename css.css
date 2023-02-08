@@ -10,6 +10,13 @@ h4, h5{
     font-family: Arial, Helvetica, sans-serif;
     color: #121212; 
 }
+.header{
+	background: linear-gradient(#e7f5df,#cfe2c4);
+
+	height: 90px;
+    width: auto;
+    color: darkred;
+}
 .box{
     color: #0e2020;
     width: 65em;
@@ -26,7 +33,7 @@ h4, h5{
     height: max-content;
     font-size: 25px;
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
-}	
+}
 table {
     border-collapse: collapse; 
     line-height: 1.1;
@@ -42,7 +49,6 @@ td {
     font-size: 0.8em;
     padding: 5px 7px;
     border: 1px solid #d6e2a9;
-}
 }
 img{
     display: block;
