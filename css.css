@@ -13,7 +13,9 @@ h4, h5{
 .header{
 	background: linear-gradient(#e7f5df,#cfe2c4);
 	height: 95px;
-    color: darkred;
+    width: auto;
+    color: 
+    darkred;
 }
 .box{
     color: #0e2020;
