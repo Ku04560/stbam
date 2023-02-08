@@ -10,13 +10,6 @@ h4, h5{
     font-family: Arial, Helvetica, sans-serif;
     color: #121212; 
 }
-.header{
-	background: linear-gradient(#e7f5df,#cfe2c4);
-	height: 95px;
-    width: auto;
-    color: 
-    darkred;
-}
 .box{
     color: #0e2020;
     width: 65em;
