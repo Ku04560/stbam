@@ -10,13 +10,46 @@ h4, h5{
     font-family: Arial, Helvetica, sans-serif;
     color: #121212; 
 }
-.header{
-	background: linear-gradient(#e7f5df,#cfe2c4);
-
-	height: 90px;
-    width: auto;
-    color: darkred;
+p2{
+    color: rgb(87, 150, 150);
 }
+p3{
+    font-size: 25px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #d3f1b1;
+    padding: 20px 10px;
+  }
+  
+  .wrap-logo {
+    display: flex;
+    align-items: center;
+  }
+  header a {
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    border-radius: 4px;
+  }
+  
+  header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    background-color: #b0e6b0;
+    color: #212121;
+  }
+  
+  header a.active {
+    background-color: #d3e0a3;
+  }
 .box{
     color: #0e2020;
     width: 65em;
@@ -62,3 +95,40 @@ img{
 table{
     margin-right: 7px;
 }
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(241, 241, 223);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
