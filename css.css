@@ -16,6 +16,9 @@ p2{
 p3{
     font-size: 25px;
 }
+img{
+    width: 700px;
+}
 header {
     display: flex;
     flex-direction: row;
