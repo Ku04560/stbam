@@ -71,7 +71,7 @@ a {
 min-height: 200vh;
 max-width: 1024px;
 margin: 0 auto;
-padding: 14px; /* отступ по краям*/
+padding: 9px; /* отступ по краям*/
 -webkit-transform: translateZ(0);
 transform: translateZ(0);
 display: block;
