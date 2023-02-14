@@ -39,7 +39,7 @@ header {
   -ms-transform-origin: center top;
   transform-origin: center top;
   vertical-align: top;
-  background: url(img/50.jpg);
+  background: url(img/50.jpg);  /*ФОТО ХеДеРа */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ header {
 header p {
   font-size: 1em;
   margin: 0;
-  color: rgb(226, 255, 232);   /*Цвет ПОДзаголовка*/ 
+  color: rgb(199, 255, 211);  /*Цвет ПОДзаголовка*/ 
 }
  
 h1 {
